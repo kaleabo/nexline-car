@@ -26,7 +26,7 @@ export function CompanyHistory() {
       <Card>
         <CardContent className="p-0">
           <div className="relative aspect-[4/3]">
-            <Image src="/placeholder.svg" alt="Nexline showroom" fill className="object-cover rounded-lg" />
+            <Image src="/about-image.jpg" alt="Nexline showroom" fill className="object-cover rounded-lg" />
           </div>
         </CardContent>
       </Card>

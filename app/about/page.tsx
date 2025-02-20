@@ -19,7 +19,7 @@ export default function AboutPage() {
           <div className="grid gap-24">
             <CompanyHistory />
             <MissionVision />
-            <TeamMembers />
+            {/* <TeamMembers /> */}
             <WhyChooseUs />
             <Testimonials />
           </div>

@@ -4,19 +4,19 @@ import { Card, CardContent } from "@/components/ui/card"
 const banks = [
   {
     name: "Commercial Bank of Ethiopia",
-    logo: "/placeholder.svg?height=60&width=120",
+    logo: "/banks/cbe.png",
   },
   {
     name: "Awash Bank",
-    logo: "/placeholder.svg?height=60&width=120",
+    logo: "/banks/awash.png",
   },
   {
     name: "Dashen Bank",
-    logo: "/placeholder.svg?height=60&width=120",
+    logo: "/banks/dashen.png",
   },
   {
     name: "Bank of Abyssinia",
-    logo: "/placeholder.svg?height=60&width=120",
+    logo: "/banks/abyssinia.png",
   },
 ]
 

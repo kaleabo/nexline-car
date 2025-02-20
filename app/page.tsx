@@ -29,11 +29,11 @@ export default function HomePage() {
           </div>
           <div className="relative z-10 container mx-auto px-4 text-center">
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-              Discover Your Dream Car
+              Discover Your Perfect Drive
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Find the perfect car with ease. Browse our selection, or let us
-              help you secure financing.
+              Explore our exclusive collection of premium vehicles at Nexline
+              Business Group
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -47,7 +47,7 @@ export default function HomePage() {
                 size="lg"
                 className="bg-primary text-primary-foreground hover:bg-primary/90"
               >
-                <Link href="/financing">Get Financing</Link>
+                <Link href="/sell">Sell Your Vehicle</Link>
               </Button>
             </div>
           </div>

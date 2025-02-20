@@ -59,7 +59,7 @@ export function Navigation() {
           href="/" 
           className="flex items-center gap-2 font-bold text-xl transition-transform hover:scale-105"
         >
-          <Image src="/logo.jpg" className="w-auto h-1/2 rounded-xl" alt="Nexline" width={40} height={40} />
+          <Image src="/logo.jpg" className="w-[70%] h-auto rounded-xl" alt="Nexline" width={40} height={40} />
         </Link>
 
         {/* Desktop Navigation */}

@@ -9,29 +9,29 @@ import Image from "next/image"
 const testimonials = [
   {
     id: 1,
-    name: "Abebe Kebede",
-    role: "Business Owner",
+    name: "Girum Hailegebriel",
+    role: "Rotaractor",
     content:
       "Nexline provided exceptional service in helping me find the perfect vehicle for my business needs. Their team was professional and knowledgeable.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/testimonial/client-1.jpg",
     rating: 5,
   },
   {
     id: 2,
-    name: "Tigist Haile",
-    role: "Company Director",
+    name: "Yeabsira Alemu",
+    role: "Social medial manager",
     content:
       "I appreciate their transparent pricing and excellent customer service. The financing options were clearly explained and very competitive.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/testimonial/client-2.jpg",
     rating: 5,
   },
   {
     id: 3,
-    name: "Dawit Mengistu",
-    role: "Entrepreneur",
+    name: "Bisrat Berhanu",
+    role: "International sales",
     content:
       "The selection of premium vehicles is impressive. The staff's knowledge and attention to detail made the process smooth and enjoyable.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/testimonial/client-3.jpg",
     rating: 5,
   },
 ]

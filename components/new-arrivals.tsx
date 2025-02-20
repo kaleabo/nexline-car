@@ -11,7 +11,7 @@ const vehicles = [
   {
     id: 1,
     name: "2024 BYD Yuan Up",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cars/c-1.jpg",
     price: {
       cash: "ETB 2,350,000",
       bank: "ETB 2,350,000",
@@ -30,7 +30,7 @@ const vehicles = [
   {
     id: 2,
     name: "2023 Toyota BZ4X 2WD",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cars/c-2.jpg",
     price: {
       cash: "ETB 3,500,000",
       bank: "ETB 2,550,000",
@@ -49,7 +49,7 @@ const vehicles = [
   {
     id: 3,
     name: "2024 BYD e2 Flying",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cars/c-3.jpg",
     price: {
       cash: "ETB 1,950,000",
       bank: "ETB 1,950,000",
@@ -68,7 +68,7 @@ const vehicles = [
   {
     id: 4,
     name: "2024 Toyota Highlander Hybrid",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/cars/c-4.jpg",
     price: {
       cash: "ETB 7,500,000",
       bank: "ETB 7,500,000",

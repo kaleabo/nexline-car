@@ -13,7 +13,7 @@ export default function HomePage() {
     <>
       <main className="relative overflow-hidden">
         {/* Hero Section */}
-        <section className="relative h-[75vh] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[100vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             <video
               autoPlay
@@ -24,7 +24,7 @@ export default function HomePage() {
             >
               <source src="/car-hero.mp4" type="video/mp4" />
             </video>
-            <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />{" "}
+            <div className="absolute inset-0 bg-black/80 backdrop-blur-sm" />{" "}
             {/* Updated overlay */}
           </div>
           <div className="relative z-10 container mx-auto px-4 text-center">

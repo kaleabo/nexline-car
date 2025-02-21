@@ -67,7 +67,9 @@ export default function HomePage() {
           </div>
         </section>
 
-        <Testimonials />
+        <Testimonials testimonials={
+          
+        } />
         <FAQ />
         <Newsletter />
         <ContactCTA />

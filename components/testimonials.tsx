@@ -24,7 +24,7 @@ interface TestimonialsProps {
 const DEFAULT_TESTIMONIALS: Testimonial[] = [
   {
     id: "default",
-    name: "John Doe",
+    name: "Abebe Kebede",
     role: "Customer",
     content: "Please add testimonials to see customer reviews.",
     rating: 5,
@@ -33,7 +33,6 @@ const DEFAULT_TESTIMONIALS: Testimonial[] = [
 ]
 
 export function Testimonials({
-  testimonials = DEFAULT_TESTIMONIALS,
   autoPlayInterval = 5000,
   className
 }: TestimonialsProps) {
@@ -41,6 +40,35 @@ export function Testimonials({
   const [isAutoPlaying, setIsAutoPlaying] = useState(true)
   const [slideDirection, setSlideDirection] = useState<'left' | 'right'>('right')
 
+  const testimonials = [
+    {
+      id: 1,
+      name: "Girum Hailegebriel",
+      role: "Rotaractor",
+      content:
+        "Nexline provided exceptional service in helping me find the perfect vehicle for my business needs. Their team was professional and knowledgeable.",
+      image: "/testimonial/client-1.jpg",
+      rating: 5,
+    },
+    {
+      id: 2,
+      name: "Yeabsira Alemu",
+      role: "Social medial manager",
+      content:
+        "I appreciate their transparent pricing and excellent customer service. The financing options were clearly explained and very competitive.",
+      image: "/testimonial/client-2.jpg",
+      rating: 5,
+    },
+    {
+      id: 3,
+      name: "Bisrat Berhanu",
+      role: "International sales",
+      content:
+        "The selection of premium vehicles is impressive. The staff's knowledge and attention to detail made the process smooth and enjoyable.",
+      image: "/testimonial/client-3.jpg",
+      rating: 5,
+    },
+  ]
   // Reset index if testimonials length changes
   useEffect(() => {
     if (currentIndex >= testimonials.length) {
@@ -71,7 +99,6 @@ export function Testimonials({
   }
 
   const currentTestimonial = testimonials[currentIndex]
-
   return (
     <section className={cn("py-16 md:py-24 overflow-hidden", className)}>
       <div className="container px-4">

@@ -37,7 +37,7 @@ export function ContactInfo() {
             <MapPin className="h-5 w-5 text-primary shrink-0" />
             <div>
               <p className="font-medium">Visit Our Showroom</p>
-              <p className="text-sm text-muted-foreground">Bole Road, Next to Millennium Hall</p>
+              {/* <p className="text-sm text-muted-foreground">Bole Road, Next to Millennium Hall</p> */}
               <p className="text-sm text-muted-foreground">Addis Ababa, Ethiopia</p>
             </div>
           </div>

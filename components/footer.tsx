@@ -92,8 +92,8 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Contact Info</h3>
             <ul className="space-y-2">
               <li className="text-muted-foreground">
-                Bole Road, Next to Millennium Hall
-                <br />
+                {/* Bole Road, Next to Millennium Hall
+                <br /> */}
                 Addis Ababa, Ethiopia
               </li>
               <li>

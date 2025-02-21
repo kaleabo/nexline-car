@@ -5,10 +5,10 @@ import { useState } from "react"
 import { cn } from "@/lib/utils"
 
 const images = [
-  "/placeholder.svg?height=600&width=800",
-  "/placeholder.svg?height=600&width=800",
-  "/placeholder.svg?height=600&width=800",
-  "/placeholder.svg?height=600&width=800",
+  "/cars/c-1.jpg",
+  "/cars/c-1-1.webp",
+  "/cars/c-1-2.webp",
+  "/cars/c-1-3.webp",
 ]
 
 export function VehicleGallery() {

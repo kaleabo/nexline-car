@@ -9,8 +9,32 @@ import { Toaster } from "@/components/ui/sonner"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Nexline Auto Sales",
+  title: {
+    default: "Nexline Auto Sales",
+    template: "%s | Nexline Auto Sales"
+  },
   description: "Find your perfect vehicle at Nexline Business Group",
+  keywords: ["cars", "auto sales", "vehicles", "dealership", "Nexline"],
+  authors: [{ name: "Nexline Business Group" }],
+  creator: "Nexline Business Group",
+  publisher: "Nexline Business Group",
+  robots: {
+    index: true,
+    follow: true
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    // url: "https://nexline.et",
+    title: "Nexline Auto Sales",
+    description: "Find your perfect vehicle at Nexline Business Group",
+    siteName: "Nexline Auto Sales"
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Nexline Auto Sales",
+    description: "Find your perfect vehicle at Nexline Business Group"
+  }
 }
 
 export default function RootLayout({
